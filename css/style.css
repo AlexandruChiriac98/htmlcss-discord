@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+    padding: 40px 0;
+}
+
+
+header {
+    background-image: url("../img/jumbo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sottotitolo{
+    padding-bottom: 1.5rem;
+}
+
+.contenitore-link ul li a{
+    text-decoration: none;
+    color: white;
+    padding: .3rem .5rem;
+}
+
+.titolo{
+    padding-bottom: 3rem;
+    font-size: xx-large;
+
+}
+
+.barra-nav {
+    display: flex;
+}
+
+.barra-fot {
+    display: flex;
+}
+
+.barra-nav>div {
+    flex-basis: 20%;
+}
+
+.barra-nav .contenitore-link,
+.barra-nav .contenitore-login {
+    padding: .5rem .25rem;
+}
+
+.contenitore-login{
+    text-align: right;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.bottoni{
+    padding: 25px;
+}
+
+.bottone{
+    border: none;
+    border-radius: 25px;
+    padding: .6rem;
+}
+
+.scuro{
+    margin-left: 15px;
+    background-color: rgb(29, 29, 29);
+    color: white;
+    font-size: .9rem;
+    padding: 15px 20px;
+}
+
+.viola{
+    background-color: rgb(84, 107, 235);
+    color: white;
+    font-size: .9rem;
+    padding: 10px 23px;
+    margin-top: 25px;
+}
+
+.bianco{
+    margin-right: 15px;
+    font-size: .9rem;
+    padding: 15px 20px;
+}
+
+.login{
+    padding: .4rem;
+    font-size: small;
+}
+
+.contenitore-logo{
+    text-align: left;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.barra-nav .contenitore-link {
+    flex-grow: 1;
+    flex-basis: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenitore-link ul {
+    list-style: none;
+}
+
+.contenitore-link ul li {
+    display: inline-block;
+}
+
+.contenitore-link ul li a {
+    padding: .3rem .5rem;
+    display: inline-block;
+}
+
+.contenitore {
+    width: 980px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.contenitore-s {
+    width: 650px;
+    text-align: center;
+    color: white;
+}
+
+.contenitore-ss{
+    width: 750px;
+    text-align: center;
+}
+
+.stelle{
+    background-image: url("../img/stars.svg");
+    background-size: contain;
+}
+
+.riga {
+    display: flex;
+}
+
+.col {
+    padding: 20px;
+    flex-grow: 1;
+}
+
+.col-2 {
+    flex-basis: 55%;
+    flex-grow: 2;
+}
+
+.col-3 {
+    flex-basis: 25%;
+    flex-grow: 0;
+}
+
+.sfondo-bianco{
+    background-color: white;
+}
+
+.sfondo-grigio{
+    background-color: lightgray;
+}
+.sfondo-nero{
+    background-color: black;
+}
