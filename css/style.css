@@ -16,7 +16,7 @@ section {
 
 header {
     background-image: url("../img/jumbo.png");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -159,10 +159,13 @@ header {
 .contenitore-ss{
     width: 750px;
     text-align: center;
+    margin: 0 auto;
 }
 
 .stelle{
     background-image: url("../img/stars.svg");
+    width: 400px;
+    background-repeat: no-repeat;
     background-size: contain;
 }
 
@@ -194,4 +197,8 @@ header {
 }
 .sfondo-nero{
     background-color: rgb(83, 83, 83);
+}
+.fine{
+    display: flex;
+    justify-content: space-between;
 }
